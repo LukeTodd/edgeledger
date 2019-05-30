@@ -40,6 +40,11 @@ p{
   color: #93cb52;
 }
 
+.bg-primary {
+  background: #7ab436;
+  color: white;
+}
+
 .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -204,4 +209,26 @@ margin-bottom: 1rem;
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* Contact */
+#contact {
+  display: flex;
+}
+
+#contact .map, #contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input, #contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
